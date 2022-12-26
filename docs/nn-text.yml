@@ -1,0 +1,17 @@
+tags:
+  - name: Analisis Sentimen (teks) dengan neural network
+get:
+  description: Klasifikasi Sentimen dari Teks yang diinputkan
+parameters:
+  - name: text
+    in: formData
+    required: true
+    type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
+

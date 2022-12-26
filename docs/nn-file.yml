@@ -1,0 +1,16 @@
+tags:
+  - name: Analisis Sentimen (file) dengan neural network
+get:
+  description: Klasifikasi Sentimen dari file yang diinputkan
+parameters :
+  - name : file
+    in : formData
+    required : True
+    type : file
+responses:
+  '200':
+    description: Successful response
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error
